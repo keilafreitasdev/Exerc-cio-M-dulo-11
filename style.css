@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif ;
+    
+}
+
+header, 
+section h2 {
+    font-family: 'Bungee', cursive; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+   
+    
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: #182c61;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    
+    
+   
+   
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.produtos {
+    padding: 20px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height: auto;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sobre-texto {
+    max-width: 60%;
+    
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; 
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+.produto p {
+    color: #555;
+}
+
+.produto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+}
+
+.produto button:hover {
+    background-color: #45a049;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #182c61;
+}
+
+@media screen and (min-width: 641px) {
+    header .container {
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    section h2 {
+        text-align: left;
+    }
+
+    li img {
+        height: 150px;
+        width: 150px;
+    }
+}
