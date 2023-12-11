@@ -45,7 +45,7 @@ body {
         font-weight: bold;
     }
 
-    .container {
+    main {
         background-color: rgb(240, 234, 234);
         
     }
@@ -80,17 +80,19 @@ body {
         margin-right: 0;
     }
 
-    main img {
+    /* main img {
         width: 100%;
-        max-width: 300;
+        max-width: 200px;
         height: auto;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 0;
         object-fit: cover;
+        
+      
        
-    }
+    } */
 
     .products-list {
         display: flex;
